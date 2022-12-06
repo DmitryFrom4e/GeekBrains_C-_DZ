@@ -24,3 +24,4 @@ Console.WriteLine();
 Console.WriteLine($"max {max}, min {min}");
 
 Console.WriteLine(Math.Round(max - min, 2));
+Console.WriteLine(Math.Round(arr[arr.Length - 1] - arr[0], 2));
